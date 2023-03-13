@@ -1505,11 +1505,11 @@ $social-background-color: rgba(255, 255, 255, 0.1);
 
   background: linear-gradient(
       90deg,
-      rgb(4 1 1 / 30%) 0%,
-      rgb(0 0 0 / 30%) 35%,
-      rgb(0 0 0 / 33%) 100%
+      rgb(4 1 1 / 28%) 0%,
+      rgb(0 0 0 / 78%) 35%,
+      rgb(0 0 0 / 67%) 100%
     ),
-    url(../../img/BG.webp);
+    url(../../img/BGG.jpg);
   background-size: cover;
   @media screen and (min-width: 480px) {
     height: 80vh;

@@ -1447,7 +1447,7 @@
   transition-property: opacity, transform;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
-  background: linear-gradient(90deg, rgba(4, 1, 1, 0.3) 0%, rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.33) 100%), url(../../img/BG.webp);
+  background: linear-gradient(90deg, rgba(4, 1, 1, 0.28) 0%, rgba(0, 0, 0, 0.78) 35%, rgba(0, 0, 0, 0.67) 100%), url(../../img/BGG.jpg);
   background-size: cover;
 }
 @media screen and (min-width: 480px) {
@@ -3319,7 +3319,7 @@ u, ins {
   transition-property: opacity, transform;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
-  background: linear-gradient(90deg, rgba(4, 1, 1, 0.3) 0%, rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.33) 100%), url(../../img/BG.webp);
+  background: linear-gradient(90deg, rgba(4, 1, 1, 0.28) 0%, rgba(0, 0, 0, 0.78) 35%, rgba(0, 0, 0, 0.67) 100%), url(../../img/BGG.jpg);
   background-size: cover;
 }
 @media screen and (min-width: 480px) {
@@ -3622,14 +3622,13 @@ a:hover {
 }
 
 .game__bg {
-  background-image: linear-gradient(90deg, rgba(4, 1, 1, 0) 0%, rgba(0, 0, 0, 0.21) 35%, rgba(50, 50, 50, 0.25) 100%), url(../../img/BGG.jpg);
+  background-image: linear-gradient(90deg, rgba(4, 1, 1, 0) 0%, rgba(0, 0, 0, 0.88) 35%, rgba(50, 50, 50, 0.22) 100%), url(../../img/BGG.jpg);
   background-size: cover;
   background-position: bottom;
 }
 @media screen and (min-width: 1200px) {
   .game__bg {
     background-position: top;
-    background-image: linear-gradient(90deg, rgba(4, 1, 1, 0) 0%, rgba(0, 0, 0, 0.48) 35%, rgba(50, 50, 50, 0.04) 100%), url(../../img/BGG.jpg);
   }
 }
 
@@ -4021,7 +4020,7 @@ a:hover {
 @media screen and (min-width: 1200px) {
   .h1-hero {
     font-weight: 600;
-    font-size: 58px;
+    font-size: 50px;
   }
 }
 
