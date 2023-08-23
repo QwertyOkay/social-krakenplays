@@ -1,4 +1,4 @@
-$buttons-color: #ffffff;
+$buttons-color: var(--color-accent);
 
 .button__hero {
   border: none;
@@ -12,8 +12,11 @@ $buttons-color: #ffffff;
   line-height: 1.2;
   text-align: center;
   text-shadow: 0px 3px 0.99px rgba(0, 0, 0, 0.49);
+  // transition-duration: var(--duration);
+  // transition-timing-function: var(--function);
   transition: color 0.3s ease, background-color 0.3s ease,
     border-color 0.3s ease;
+  // transform: perspective(1px) translateZ(0);
 
   width: 210px;
   height: 60px;
@@ -24,6 +27,9 @@ $buttons-color: #ffffff;
     0 -0.25rem 1.5rem rgb(50, 93, 48) inset,
     0 0.75rem 0.5rem rgba(114, 133, 114, 0.4) inset,
     0 0.25rem 0.5rem 0 rgb(83, 243, 91) inset;
+  // -webkit-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+  //   -moz-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+  //   box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
 
   @media screen and (min-width: 768px) {
     border: none;
@@ -65,6 +71,8 @@ $buttons-color: #ffffff;
     line-height: 1.2;
     text-align: center;
     text-shadow: 0px 3px 0.99px rgba(0, 0, 0, 0.49);
+    // transition-duration: var(--duration);
+    // transition-timing-function: var(--function);
     transition: color 0.3s ease, background-color 0.3s ease,
       border-color 0.3s ease;
 
@@ -74,6 +82,10 @@ $buttons-color: #ffffff;
 
     border-color: rgb(109, 140, 24);
     border-radius: 20px;
+
+    // -webkit-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    // -moz-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    // box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
     box-shadow: 0 1rem 1.25rem 0 rgba(0, 0, 0, 0.5),
       0 -0.25rem 1.5rem rgb(50, 93, 48) inset,
       0 0.75rem 0.5rem rgba(114, 133, 114, 0.4) inset,
@@ -93,12 +105,17 @@ $buttons-color: #ffffff;
     line-height: 1.2;
     text-align: center;
     text-shadow: 0px 3px 0.99px rgba(0, 0, 0, 0.49);
+    // transition-duration: var(--duration);
+    // transition-timing-function: var(--function);
 
     width: 266px;
     height: 60px;
 
     border-color: rgb(109, 140, 24);
     border-radius: 20px;
+    // -webkit-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    // -moz-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    // box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
     box-shadow: 0 1rem 1.25rem 0 rgba(0, 0, 0, 0.5),
       0 -0.25rem 1.5rem rgb(50, 93, 48) inset,
       0 0.75rem 0.5rem rgba(114, 133, 114, 0.4) inset,
@@ -106,7 +123,13 @@ $buttons-color: #ffffff;
   }
 
   &:hover {
+    // transform: translateY(-13px) translateY(-9px) ;
+    //     transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    //     transition-duration: var(--duration);
+    //     transition-timing-function: var(--function);
     transform: perspective(1px) translateZ(0);
+    // color: $main-title-color;
+    // background-color: $accent-color;
   }
 }
 
@@ -118,6 +141,7 @@ $buttons-color: #ffffff;
   display: inline-block;
   vertical-align: middle;
   transform: translateZ(0);
+  // box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   transition-duration: 0.3s;
@@ -137,8 +161,8 @@ $buttons-color: #ffffff;
   position: absolute;
   top: 8px;
   right: 8px;
-  min-height: 20px;
-  min-width: 20px;
+  min-height: 30px;
+  min-width: 30px;
   padding: 0;
   background-color: #fff;
   color: #000;
@@ -156,9 +180,9 @@ $buttons-color: #ffffff;
   align-items: center;
   position: absolute;
   top: 11px;
-  left: 11px;
-  min-height: 20px;
-  min-width: 20px;
+  right: 11px;
+  min-height: 30px;
+  min-width: 30px;
   padding: 0;
   background-color: #20847c;
   color: #000;
@@ -182,9 +206,9 @@ $buttons-color: #ffffff;
   justify-content: center;
   align-items: center;
   background-color: $buttons-color;
-  min-height: 20px;
-  left: 11px;
-  min-width: 20px;
+  min-height: 30px;
+  right: 11px;
+  min-width: 30px;
   color: #000;
   border-radius: 50%;
   padding: 0;
@@ -203,16 +227,16 @@ $buttons-color: #ffffff;
 .button__modal1 {
   justify-content: center;
   display: flex;
-  left: 11px;
+  right: 11px;
   align-items: center;
   top: 11px;
   position: absolute;
-  min-width: 20px;
+  min-width: 30px;
   padding: 0;
-  background-color: $buttons-color;
+  background-color: #56242459;
   border-radius: 50%;
   color: #fff !important;
-  min-height: 20px;
+  min-height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition-duration: 250ms;
   cursor: pointer;
@@ -230,12 +254,12 @@ $buttons-color: #ffffff;
   justify-content: center;
   display: flex;
   top: 11px;
-  min-height: 20px;
+  min-height: 30px;
   position: absolute;
   background-color: $buttons-color;
-  left: 11px;
+  right: 11px;
   color: #fff;
-  min-width: 20px;
+  min-width: 30px;
   padding: 0;
   border-radius: 50%;
   transition-property: color;
@@ -256,45 +280,61 @@ $buttons-color: #ffffff;
   align-items: center;
   justify-content: center;
   top: 11px;
-  min-height: 20px;
+  min-height: 15px;
   left: 11px;
-  background-color: $buttons-color;
+  background: var(--color-modalsBG);
   padding: 0;
   border-radius: 50%;
-  min-width: 20px;
+  min-width: 15px;
   transition-property: color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: #000;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  // border: 1px solid #ffffff2b;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  // border: 2px solid var(--color-primary);
+  border: 2px solid #000000ac;
+
+  background: #ff5f58;
+  padding: 0;
+  border-radius: 50%;
+  min-width: 15px;
+  transition-property: color;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border: 2px solid rgb(225 61 52);
 
   &:focus,
   &:hover {
-    color: brown;
+    color: rgb(166, 217, 247);
+    // border: 2px solid var(--color-primary);
+    // transition: border 0.3s;
   }
 }
 
 .main-r-button {
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: 500;
+  border-color: #fff8df;
   white-space: nowrap;
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  color: rgb(254 255 250);
+  color: #fff8ff;
   text-decoration: none;
-  padding: 20px 45px;
-  box-shadow: inset 0px 0px 0px 4px rgb(74 167 214);
+  padding: 20px 38px;
+  border-radius: 10px;
   text-transform: uppercase;
-  background: linear-gradient(180deg, #f0260c -7.29%, #6e2339 130.21%);
-  border: none;
-  font-weight: 600;
-}
-
-.main-r-button:hover {
-  box-shadow: inset 0px 0px 0px 4px #fff174;
-  transform: scale(1.1);
-  transition-duration: 0.3s;
+  background: linear-gradient(180deg, #ca727e -7.29%, #6a4a85 130.21%);
+  border-color: #c18390;
 }
 
 .main-r-button-popup {
@@ -363,7 +403,13 @@ button {
   cursor: pointer;
 }
 
-.absNew {
-  position: absolute;
-  bottom: 23%;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
 }
+
+// .marginMin {
+//   margin-top: -100px;
+// }

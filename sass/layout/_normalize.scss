@@ -87,8 +87,9 @@ code,
 kbd,
 samp,
 pre {
-/*   font-family: 'Raleway';
- */  font-size: 1em; /* 2 */
+  /*   font-family: 'Raleway';
+ */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -169,9 +170,9 @@ Correct the inability to style clickable types in iOS and Safari.
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -231,7 +232,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
+[type="search"] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -267,7 +268,9 @@ summary {
   display: list-item;
 }
 
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: inherit;
 }
 
@@ -288,22 +291,52 @@ a {
   color: currentcolor;
 }
 
-a:hover{text-decoration:underline}
+a:hover {
+  text-decoration: underline;
+}
 
-ul, ol, dd {
+ul,
+ol,
+dd {
   margin-left: 16px;
   margin-bottom: 18px;
-  
 }
 
 h1 {
-  font-weight: normal;
-  margin-left:16px;
-  font-size:36px; 
-  font-weight:normal;
-  text-transform:uppercase;
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
-h1{font-size:2em;margin:0.67em 0}
-
-h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,form,fieldset,legend,figure,table,th,td,caption,hr{margin:0;padding:0}abbr[title],dfn[title]{cursor:help}u,ins{text-decoration:none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+form,
+fieldset,
+legend,
+figure,
+table,
+th,
+td,
+caption,
+hr {
+  margin: 0;
+  padding: 0;
+}
+abbr[title],
+dfn[title] {
+  cursor: help;
+}
+u,
+ins {
+  text-decoration: none;
+}
